@@ -3,16 +3,16 @@
 
 /* left of left half */
 #if !defined X_LT  // top row, left
-    #define X_LT
+    #define X_LT &none
 #endif
 #if !defined X_LM  // middle row, left
-    #define X_LM
+    #define X_LM &none
 #endif
 #if !defined X_LB  // bottom row, left
-    #define X_LB
+    #define X_LB &none
 #endif
 #if !defined X_LH  // thumb row, left
-    #define X_LH
+    #define X_LH &none
 #endif
 
 /* between left and right half */
@@ -31,15 +31,15 @@
 
 /* right of right half */
 #if !defined X_RT  // top row, right
-    #define X_RT
+    #define X_RT &none
 #endif
 #if !defined X_RM  // middle row, right
-    #define X_RM
+    #define X_RM &none
 #endif
 #if !defined X_RB  // bottom row, right
-    #define X_RB
+    #define X_RB &none
 #endif
 #if !defined X_RH  // thumb row, right
-    #define X_RH
+    #define X_RH &none
 #endif
 

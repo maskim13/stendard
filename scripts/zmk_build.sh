@@ -80,10 +80,10 @@ done
 [[ -z $LOG_DIR ]] && LOG_DIR="/tmp"
 
 [[ -z $HOST_ZMK_DIR ]] && HOST_ZMK_DIR="$HOME/zmk"
-[[ -z $HOST_CONFIG_DIR ]] && HOST_CONFIG_DIR="$HOME/zmk-config"
+[[ -z $HOST_CONFIG_DIR ]] && HOST_CONFIG_DIR="$HOME/stendard"
 
 [[ -z $DOCKER_ZMK_DIR ]] && DOCKER_ZMK_DIR="/workspace/zmk"
-[[ -z $DOCKER_CONFIG_DIR ]] && DOCKER_CONFIG_DIR="/workspace/zmk-config"
+[[ -z $DOCKER_CONFIG_DIR ]] && DOCKER_CONFIG_DIR="/workspace/stendard"
 
 [[ -z $BOARDS ]] && BOARDS="$(grep '^[[:space:]]*\-[[:space:]]*board:' $HOST_CONFIG_DIR/build.yaml | sed 's/^.*: *//')"
 
