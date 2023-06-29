@@ -2,4 +2,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: k3d3/zmk/.github/workflows/build-user-config.yml@build-with-submodules
+    uses: k3d3/zmk/.github/workflows/build-user-config.yml@main
