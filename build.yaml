@@ -14,9 +14,9 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: Chocofi_left
+    shield: chocofi_left
   - board: nice_nano_v2
-    shield: Chocofi_right
+    shield: chocofi_right
 
 #  - board: corneish_zen_v2_left
 #  - board: corneish_zen_v2_right
