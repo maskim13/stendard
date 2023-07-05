@@ -9,11 +9,11 @@
 #define CONFIG_WIRELESS 1
 
 /* use alt steno layout */
-#define CONFIG_STENO_ALT 1
+/* #define CONFIG_STENO_ALT 1
 
 /* source the main keymap */
 #include "base2.keymap"
 
 /* use 5-column layout for Zen */
-// / { chosen { zmk,matrix_transform = &five_column_transform; }; };
+/ { chosen { zmk,matrix_transform = &five_column_transform; }; };
 
