@@ -15,8 +15,7 @@
 #define NAV 1
 #define FN 2
 #define NUM 3
-#define SY
-S 4
+#define SYS 4
 #define UC 5
 #define MOUSE 6
 #define STENO 7
