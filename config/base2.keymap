@@ -15,14 +15,15 @@
 #define NAV 1
 #define FN 2
 #define NUM 3
-#define SYS 4
+#define SY
+S 4
 #define UC 5
 #define MOUSE 6
 #define STENO 7
 
 #include "combos.dtsi"  // requires layer aliases
 #include "mouse.dtsi"
-#include "extra_keys.h"
+/* #include "extra_keys.h"
 
 #define XXX &none
 #define ___ &trans
